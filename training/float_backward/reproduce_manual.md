@@ -50,7 +50,7 @@ $ ip a
 ```sh
 $ cd nngen/training/float_backward
 $ sudo -s
-root# source /usr/local/share/pynq-venv/bin/active
+root# source /usr/local/share/pynq-venv/bin/activate
 (pynq-venv)root# python main.py
 Using NNgen version 1.3.4.2
 Epoch: 1, Cost: 1.937, Accuracy0: 0.980, Accuracy9: 0.583, Accuracy: 0.623
