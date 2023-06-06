@@ -43,7 +43,7 @@ $ ip a
 
 [公式の手順](https://github.com/NNgen/nngen)に従い、インストールを実行
 
-ブランチをtraining_reproduceにチェックアウト(sefutsu/nngenでないと見つかりません)
+ブランチをtraining_reproduceにチェックアウト(/nngenでないと見つかりません)
 
 ### 実行
 
