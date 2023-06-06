@@ -39,7 +39,7 @@ class Trainer:
         self.output_size = 10
         self.param_size = 90944
 
-        self.load_params_np("/home/root/jupyter_notebooks/mnist/weights")
+        #self.load_params_np("/home/root/jupyter_notebooks/mnist/weights")
         self.sync_qunatize()
 
     def load_params_np(self, path):
