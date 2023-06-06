@@ -11,7 +11,7 @@ from trainer import Trainer
 trainer = Trainer()
 
 # Training Data
-mnist = fetch_openml('mnist_784')
+mnist = fetch_openml('mnist_784', parser="auto")
 
 x_mnist = mnist.data.to_numpy().astype(float) / 255.
 t_mnist = mnist.target.to_numpy().astype(int)
